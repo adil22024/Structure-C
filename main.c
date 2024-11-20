@@ -62,11 +62,11 @@ int main() {
 
     p1 = creer_personne(nom, age , ad1);
     
-    // printf("nom: %s\n", p1.nom);
-    // printf("age: %d\n",p1.age);
-    // printf("ville: %s\n",p1.ad.ville);
-    // printf("rue: %s\n",p1.ad.rue);
-    // printf("code postal: %d\n",p1.ad.code_postal);
+    printf("nom: %s\n", p1.nom);
+    printf("age: %d\n",p1.age);
+    printf("ville: %s\n",p1.ad.ville);
+    printf("rue: %s\n",p1.ad.rue);
+    printf("code postal: %d\n",p1.ad.code_postal);
 
 
     return 0;
